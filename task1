@@ -1,0 +1,11 @@
+          list and tuples 
+list_items = ['Laptop','Mobile','Headphones','earpods','M_charger','Laptop_charger']
+sample_products = ('Dell',70000,'laptop')
+print(list_items[4:6])
+list_items.append('Keybord')
+list_items.append('Mouse')
+print(list_items)
+product_list = list(sample_products)
+product_list[1] = 80000
+product_tuple = tuple(product_list)
+print(product_tuple)
