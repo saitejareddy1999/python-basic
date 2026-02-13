@@ -1,4 +1,4 @@
-          list and tuples 
+          task1:list and tuples 
 list_items = ['Laptop','Mobile','Headphones','earpods','M_charger','Laptop_charger']
 sample_products = ('Dell',70000,'laptop')
 print(list_items[4:6])
@@ -9,3 +9,12 @@ product_list = list(sample_products)
 product_list[1] = 80000
 product_tuple = tuple(product_list)
 print(product_tuple)
+           task2:categories(set)
+categories = ['electonics','accessories','electonics','accessories','electonics','accessories']
+categories_set = set(categories)
+print(categories_set)
+categories_set.add('electonics')
+print(categories_set)
+print('electonics' in categories_set)
+print(len(categories_set))
+
